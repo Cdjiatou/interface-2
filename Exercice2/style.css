@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(ui.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+
+
+}
+.entete{
+    margin: auto;
+    padding-left: 270px;
+    font-size: 35px;
+    color:white;
+    width:auto;
+    margin-bottom: 40px;
+    padding-top: 80px;
+
+}
+
+.entete p{
+    font-size: 15px;
+    
+}
+.Grand{
+    width: 465px;
+    margin: 5% auto;
+    border-radius: 25px;
+    background-color: #ffffff59;
+    height: 530px;
+    box-shadow: 0 0 10px #333;
+}
+.insert{
+    text-align: center;
+}
+.insert label{
+    padding-right: 290px;
+    font-size: 23px;
+    color: white;
+    font-weight: 5000%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.insert input{
+    width: 360px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #dddddd6c;
+    margin-bottom: 1px;
+    overflow: hidden; 
+
+}
+.insert button{
+    width: 40%;
+    height: 45px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    background-color:  rgba(220, 220, 220, 0.932);
+    font-size: 20px;
+}
+.insert button:hover {
+    box-shadow: 3px 3px 6px #555;
+    background-color: #7799d4;
+}
+.insert input:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+}
+.insert p, b{
+    color:white;
+   
+}
